@@ -81,7 +81,7 @@ public class ServerMenu extends GUIMenu implements ButtonListener {
 
 			long k = System.currentTimeMillis();
 			sn.scan("localhost");
-			sn.scan("semtex.org");
+			sn.scan("mikescher.com");
 			System.out.println("Dura: --> " + (System.currentTimeMillis() - k));
 		}
 	}

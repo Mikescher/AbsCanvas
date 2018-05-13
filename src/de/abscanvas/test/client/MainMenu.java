@@ -94,7 +94,7 @@ public class MainMenu extends GUIMenu implements ButtonListener, SelectionListen
 		refresh.setEnabled(false);
 		
 		NetworkScanner nscan = new NetworkScanner(serverlist, progressbar, GameLevel.IDENTIFIER);
-		nscan.scan("localhost", "semtex.org");
+		nscan.scan("localhost", "mikescher.com");
 		refresh.setEnabled(true);
 	}
 

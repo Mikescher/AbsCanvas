@@ -6,7 +6,7 @@ import de.abscanvas.ui.hud.HUD;
 import de.abscanvas.ui.hud.HUDElement;
 
 public class HUDNativeLabel extends HUDElement {
-	private String txt;
+	private String txt = "";
 
 	public HUDNativeLabel(int x, int y, String txt, HUD owner) {
 		super(x, y, 0, 0, new Bitmap(0, 0), owner);
